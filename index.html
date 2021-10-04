@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>design tienda de ropa</title>
+    <link rel="stylesheet" href="css/estilo-minificado.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">tienda design.</a>
+        <form action="">
+            <input type="search" id="search-bar">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <div id="menu-bar" class="fas fa-jedi"></div>
+            <div id="theme-toggler" class="fas fa-moon"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="user">
+            <img src="img/user.jpg" alt="">
+            <h3>orochi design</h3>
+        </div>
+        <div class="links">
+            <a href="#home">inicio.</a>
+            <a href="#products">productos.</a>
+            <a href="#featured">destacadas.</a>
+            <a href="#deal">oferta.</a>
+            <a href="#review">clientes.</a>
+        </div>
+        <div id="close" class="fas fa-times"></div>
+    </nav>
+    
+    <section class="home" id="home">
+        <div class="content">
+            <span>oferta especial.</span>
+            <h3>hasta 50% off</h3>
+            <a href="#" class="btn">comprar ahora</a>
+        </div>
+        <div class="image">
+            <img src="img/inicio.png" alt="">
+        </div>
+    </section>
+    
+    <section class="category">
+        <h1 class="heading">compra por <span>categoría</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/mujer.jpg" alt="">
+                <div class="content">
+                    <span>hasta el 50% de descuento</span>
+                    <h3>para mujeres</h3>
+                    <a href="#" class="btn">comprar ahora</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/hombre.jpg" alt="">
+                <div class="content">
+                    <span>hasta el 50% de descuento</span>
+                    <h3>para hombre</h3>
+                    <a href="#" class="btn">comprar ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="products" id="products">
+        <h1 class="heading">últimos <span> productos</span></h1>
+        <div class="swiper product-slider gap">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para damas</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para damas</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para damas</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para damas</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa5.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para damas</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa6.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para caballero</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa7.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para caballero</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa8.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para caballero</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa9.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para caballero</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img/ropa10.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(250 vistas)</span>
+                            </div>
+                            <h3>para caballero</h3>
+                            <div class="price">$10.000 <span>$15.000</span></div>
+                            <a href="#" class="btn">agregar a la compra</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+    </section>
+    
+    <section class="featured" id="featured">
+        <h1 class="heading">productos  <span>destacados</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/galeria1.jpg" class="small-image1" alt="">
+                        <img src="img/galeria2.jpg" class="small-image1" alt="">
+                        <img src="img/galeria3.jpg" class="small-image1" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/galeria1.jpg" class="big-image1" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>variedad para damas</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(250 vistas)</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit blanditiis temporibus facere deserunt sunt cupiditate molestias earum doloribus sequi.</p>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <a href="#" class="btn">agregar a la compra</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/galeria7.jpg" class="small-image2" alt="">
+                        <img src="img/galeria8.jpeg" class="small-image2" alt="">
+                        <img src="img/galeria9.jpg" class="small-image2" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/galeria7.jpg" class="big-image2" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>variedad para caballeros</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(250 vistas)</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit blanditiis temporibus facere deserunt sunt cupiditate molestias earum doloribus sequi.</p>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <a href="#" class="btn">agregar a la compra</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/galeria4.jpg" class="small-image3" alt="">
+                        <img src="img/galeria5.jpg" class="small-image3" alt="">
+                        <img src="img/galeria6.jpg" class="small-image3" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/galeria4.jpg" class="big-image3" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>variedad para damas</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(250 vistas)</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit blanditiis temporibus facere deserunt sunt cupiditate molestias earum doloribus sequi.</p>
+                    <div class="price">$10.000 <span>$15.000</span></div>
+                    <a href="#" class="btn">agregar a la compra</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="deal" id="deal">
+        <h1 class="heading">ofertas  <span>especiales</span></h1>
+        <div class="row">
+            <div class="content">
+                <span class="discount">descuentos de 50%</span>
+                <h3 class="text">descuento del dia</h3>
+                <div class="count-down">
+                    <div class="box">
+                        <h3 id="days">00</h3>
+                        <span>dias</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="hours">00</h3>
+                        <span>horas</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="minutes">00</h3>
+                        <span>minutos</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="seconds">00</h3>
+                        <span>segundos</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">comprar ahora</a>
+            </div>
+            <div class="images">
+                <img src="img/counter.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section class="review" id="review">
+        <h1 class="heading">clientes  <span>habituales</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque laborum delectus tempora qui, repellat sed veniam blanditiis explicabo vitae impedit ipsa recusandae accusamus, dolorum magnam deleniti aliquam exercitationem, perspiciatis repudiandae.</p>
+                        <div class="user">
+                            <img src="img/cliente1.jpg" alt="">
+                            <div class="user-info">
+                                <h3>elena queen</h3>
+                                <span>cliente habitual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque laborum delectus tempora qui, repellat sed veniam blanditiis explicabo vitae impedit ipsa recusandae accusamus, dolorum magnam deleniti aliquam exercitationem, perspiciatis repudiandae.</p>
+                        <div class="user">
+                            <img src="img/cliente2.jpg" alt="">
+                            <div class="user-info">
+                                <h3>julia miro</h3>
+                                <span>cliente habitual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque laborum delectus tempora qui, repellat sed veniam blanditiis explicabo vitae impedit ipsa recusandae accusamus, dolorum magnam deleniti aliquam exercitationem, perspiciatis repudiandae.</p>
+                        <div class="user">
+                            <img src="img/cliente3.jpg" alt="">
+                            <div class="user-info">
+                                <h3>ursula quero</h3>
+                                <span>cliente habitual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque laborum delectus tempora qui, repellat sed veniam blanditiis explicabo vitae impedit ipsa recusandae accusamus, dolorum magnam deleniti aliquam exercitationem, perspiciatis repudiandae.</p>
+                        <div class="user">
+                            <img src="img/cliente4.jpg" alt="">
+                            <div class="user-info">
+                                <h3>estefania herreros</h3>
+                                <span>cliente habitual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="footer-container">
+            <div class="box-container">
+                <div class="box">
+                    <h3>links</h3>
+                    <a href="#home">inicio</a>
+                    <a href="#products">productos</a>
+                    <a href="#featured">destacadas</a>
+                    <a href="#deal">oferta</a>
+                    <a href="#review">clientes</a>
+                </div>
+                <div class="box">
+                    <h3>links</h3>
+                    <a href="#">mi cuenta</a>
+                    <a href="#">mis favoritos</a>
+                    <a href="#">mis pedidos</a>
+                    <a href="#">mis compras</a>
+                </div>
+                <div class="box">
+                    <h3>descargas</h3>
+                    <a href="#">windows store</a>
+                    <a href="#">app store</a>
+                    <a href="#">google store</a>
+                    <a href="#">apple store</a>
+                </div>
+                <div class="box">
+                    <h3>contacto</h3>
+                    <a href="#">+9 54 341 7654321</a>
+                    <a href="#">tienda.design@hotmail.com</a>
+                    <a href="#">Rosario Bv Avellaneda 9999, Argentina.</a>
+                    <img src="img/payment.png" alt="">
+                </div>
+            </div>
+            <div class="credit">diseñado por <span> &copy; orochi design</span> | todos los derechos reservados.</div>
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
